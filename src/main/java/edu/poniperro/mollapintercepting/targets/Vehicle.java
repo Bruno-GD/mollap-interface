@@ -3,7 +3,7 @@ package edu.poniperro.mollapintercepting.targets;
 public class Vehicle implements Target {
 
     // constructor de la clase vehiculo
-    Vehicle(){
+    public Vehicle(){
     }
 
     @Override

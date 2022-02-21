@@ -2,7 +2,7 @@ package edu.poniperro.mollapintercepting.filtres;
 
 public class Autenticacio implements Filtre {
 
-    Autenticacio(){
+    public Autenticacio(){
     }
 
     @Override

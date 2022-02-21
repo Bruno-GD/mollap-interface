@@ -3,13 +3,14 @@ package edu.poniperro.mollapintercepting.administrador;
 import edu.poniperro.mollapintercepting.filtres.Filtre;
 import edu.poniperro.mollapintercepting.targets.Target;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Tasques {
 
     //Atributos o propiedades (siempre son privados)
     private Target target;
-    private List<Filtre> tasques;
+    private List<Filtre> tasques = new ArrayList<Filtre>();
 
     // Contructor
     Tasques(){
